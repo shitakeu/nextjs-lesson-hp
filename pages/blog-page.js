@@ -1,4 +1,4 @@
-import Layout from "../components/Layout"
+import Layout from "../components/templates/Layout"
 import Post from "../components/Post";
 import { getAllPostsData } from "../lib/posts";
 const Blog = ({posts}) => {

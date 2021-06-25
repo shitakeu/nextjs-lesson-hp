@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from "../components/templates/Layout";
 import Image from "next/image";
 
 export default function Contact() {
@@ -11,7 +11,7 @@ export default function Contact() {
         <div className="flex justify-center mt-4">
           <Image
             className="rounded-full"
-            src="/avatar.jpg"
+            src="/avatar.jpeg"
             width={60}
             height={60}
             alt="Avatar"
